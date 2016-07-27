@@ -9,6 +9,7 @@ namespace MyCalculator
         {
             Console.WriteLine("Hello world 1");
             Console.WriteLine("Hello world 2");
+            Console.WriteLine("Hello world 3");
         }
     }
 }
