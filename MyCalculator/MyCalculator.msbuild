@@ -24,4 +24,9 @@
     <MSBuild Projects="@(SolutionFile)" Targets="Rebuild"
              Properties="OutDir=%(BuildArtifactsDir.FullPath);Configuration=$(Configuration);Platform=$(BuildPlatform)" />
   </Target>
+  <Target Name="UnitTests" DependsOnTargets="Compile">
+    <Exec Command='"C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\mstest.exe" /testcontainer:"E:\Trainings\GIT\MyProjectDir\MyCalculatorApp\MyCalculatorUnitTests\bin\Debug\MyCalculatorUnitTests.dll"'/>
+  </Target>
+
+  
 </Project>

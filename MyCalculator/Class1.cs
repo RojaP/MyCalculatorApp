@@ -7,9 +7,13 @@ namespace MyCalculator
     {
         public static void Main()
         {
-            Console.WriteLine("Hello world 1");
-            Console.WriteLine("Hello world 2");
-            Console.WriteLine("Hello world 3");
+            Calculator caclulator = new Calculator();
+            caclulator.Operand1 = 100;
+            caclulator.Operand2 = 200;
+            Console.WriteLine(caclulator.Add());
+            Console.WriteLine(caclulator.Subtract());
+            Console.WriteLine(caclulator.Multiply());
+            Console.WriteLine(caclulator.Devide());
         }
     }
 }
