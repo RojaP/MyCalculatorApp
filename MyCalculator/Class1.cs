@@ -3,8 +3,9 @@
 
 namespace MyCalculator
 {
-    public class Class1
+    public static class Class1
     {
+        
         public static void Main()
         {
             Calculator caclulator = new Calculator();
@@ -13,7 +14,7 @@ namespace MyCalculator
             Console.WriteLine(caclulator.Add());
             Console.WriteLine(caclulator.Subtract());
             Console.WriteLine(caclulator.Multiply());
-            Console.WriteLine(caclulator.Devide());
+            Console.WriteLine(caclulator.Divide());
         }
     }
 }

@@ -23,7 +23,7 @@ namespace MyCalculator
         {
             return Operand1 * Operand2;
         }
-        public int Devide()
+        public int Divide()
         {
             return Operand1 / Operand2;
         }

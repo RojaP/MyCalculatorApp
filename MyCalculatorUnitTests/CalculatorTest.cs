@@ -37,7 +37,7 @@ namespace MyCalculatorUnitTests
             Calculator calculator = new Calculator();
             calculator.Operand1 = 10;
             calculator.Operand2 = 20;
-            Assert.AreEqual(calculator.Devide(), 0);
+            Assert.AreEqual(calculator.Divide(), 0);
         }
     }
 }
