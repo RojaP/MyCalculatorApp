@@ -13,7 +13,7 @@ namespace MyCalculatorUnitTests
             Calculator calculator = new Calculator();
             calculator.Operand1 = 10;
             calculator.Operand2 = 20;
-            Assert.AreEqual(calculator.Add(), 40);
+            Assert.AreEqual(calculator.Add(), 30);
         }
         [TestMethod]
         public void TestSubtract()
